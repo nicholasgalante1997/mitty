@@ -1,0 +1,6 @@
+{
+    "name": "{{name}}",
+    "server": {
+        "_type": "{{server.type}}"
+    }
+}

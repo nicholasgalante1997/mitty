@@ -1,0 +1,28 @@
+{
+  "name": "mitty",
+  "version": "1.0.0",
+  "description": "microservice-template-engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "prettier": "prettier --write \"src/**.ts\"",
+    "lint": "eslint -c .eslintrc.js --fix src/**/*.ts"
+  },
+  "keywords": [
+    "microservice"
+  ],
+  "author": "Nick Galante",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^9.4.0",
+    "handlebars": "^4.7.7",
+    "typescript": "^4.7.4"
+  },
+  "devDependencies": {
+    "@types/node": "^18.6.4",
+    "@typescript-eslint/eslint-plugin": "^5.32.0",
+    "@typescript-eslint/parser": "^5.32.0",
+    "eslint": "^8.21.0",
+    "prettier": "^2.7.1"
+  }
+}
